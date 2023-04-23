@@ -58,6 +58,6 @@ int main()
 
     printf("min -- >%i \n", min(array, num));
     printf("max -- >%i", max(array, num));
-
+    free(array);
 
 }
